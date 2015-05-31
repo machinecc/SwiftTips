@@ -2,7 +2,7 @@
 各种Swift开发过程中遇到的小技巧
 
 
-## 设置状态栏为不透明（设置状态栏不覆盖内容）
+### 设置状态栏为不透明（设置状态栏不覆盖内容）
 
 *Fig 1a. 透明的状态栏，内容被状态栏覆盖*
 
@@ -18,14 +18,14 @@
 
 解决方法：
 
-Step 1. 添加Top Layout Guide和WebView的vertical constraint 
+*Step 1. 添加Top Layout Guide和WebView的vertical constraint*
 
 ![](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1c.png)
 
 
 
 
-Step 2. 设置constraint的值为0
+*Step 2. 设置constraint的值为0*
 
 ![](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1d.png)
 
