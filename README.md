@@ -4,9 +4,18 @@
 
 1. 设置状态栏为不透明（设置状态栏不覆盖内容）
 
-![Minion](http://octodex.github.com/images/minion.png)
+![Fig 1a. 透明的状态栏，内容被状态栏覆盖](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1a.png)
 
+![Fig 1b. 目标：不透明的状态栏，内容不被状态栏覆盖](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1b.png)
 
 解决方法：
+
+Step 1. 添加Top Layout Guide和WebView的vertical constraint 
+![Fig 1c. 添加constraint](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1c.png)
+
+Step 2. 设置constraint的值为9
+![Fig 1d. 设置constraint](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1d.png)
+
+
 
 
