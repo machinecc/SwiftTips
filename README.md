@@ -25,7 +25,7 @@ Step 1. 添加Top Layout Guide和WebView的vertical constraint
 
 
 
-Step 2. 设置constraint的值为9
+Step 2. 设置constraint的值为0
 
 ![](https://raw.githubusercontent.com/machinecc/SwiftTips/master/Images/1d.png)
 
